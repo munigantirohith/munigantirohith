@@ -1,0 +1,16 @@
+def posneg1(x):
+    if(x>0):
+        return True
+    else:
+        return False
+def posneg2(n):
+    if(n<0):
+        return True
+    else:
+        return False
+lst=[10,-20,30,-40,-50,60,25]
+roh=filter(posneg1,lst)
+pslist=set(roh)
+print(pslist)
+nslist=list(filter(posneg2,lst))
+print(nslist)
