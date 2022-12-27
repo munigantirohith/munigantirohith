@@ -1,0 +1,7 @@
+import functools
+def add(a,b):
+    return(a+b)
+lst=[10,20]
+obj=functools.reduce(add,lst)
+sqlist=int(obj)
+print(sqlist)
